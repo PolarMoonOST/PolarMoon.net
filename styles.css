@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    background-image: url(siteImages/websitebackground1.png);
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;       
+    background-attachment: fixed;
+}
+
+.flex-container-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    border: 0.5px solid black;
+}
+
+.pixel-fixer {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+.head-table {
+   margin-left: auto;
+   margin-right: auto;
+   border-collapse: collapse;
+   border: 1px solid black;
+}
+
+.devlog-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Set explicit fixed width for the devlog table */
+.devlog-table {
+   margin-left: auto;
+   margin-right: auto;
+   border-collapse: collapse;
+   border: 1px solid black;
+   background-color: darkslateblue;
+   
+   /* Prevents box from growing to fill page */
+   width: 500px; /* Change to 50px if you genuinely want it 50px wide */
+   box-sizing: border-box; 
+}
+
+.devlog-post-header {
+    text-align: center;
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.devlog-post-content {
+    background-color: darkslateblue;
+    color: white;
+    padding: 15px 20px;
+    margin: 0;
+    text-align: left; /* Restores normal left alignment for text */
+    font-weight: normal; /* Fixes th element default bolding */
+}
+
+ul.devlog-post-content {
+    padding-left: 40px; /* Gives list items standard bullet indentation */
+}
