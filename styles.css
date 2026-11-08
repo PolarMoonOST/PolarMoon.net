@@ -37,7 +37,6 @@ body {
     width: 100%;
 }
 
-/* Set explicit fixed width for the devlog table */
 .devlog-table {
    margin-left: auto;
    margin-right: auto;
@@ -45,8 +44,7 @@ body {
    border: 1px solid black;
    background-color: darkslateblue;
    
-   /* Prevents box from growing to fill page */
-   width: 500px; /* Change to 50px if you genuinely want it 50px wide */
+   width: 500px; 
    box-sizing: border-box; 
 }
 
@@ -63,10 +61,10 @@ body {
     color: white;
     padding: 15px 20px;
     margin: 0;
-    text-align: left; /* Restores normal left alignment for text */
-    font-weight: normal; /* Fixes th element default bolding */
+    text-align: left; 
+    font-weight: normal; 
 }
 
 ul.devlog-post-content {
-    padding-left: 40px; /* Gives list items standard bullet indentation */
+    padding-left: 40px;
 }
